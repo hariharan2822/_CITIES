@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cities</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+<style>
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(189, 119, 255);
+}
+
+header{
+    background-color: orangered;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: aliceblue;
+}
+nav{
+    float:left;
+    width: 30%;
+    height: 100px;
+    background-color: rgb(255, 151, 113);
+    padding: 20px;
+}
+nav ul{
+    list-style-type:none;
+    padding: 50px;
+}
+ul{
+list-style-type: none;
+background-color: rgb(56, 56, 56);
+overflow: hidden;
+margin: 0;
+padding: 20px;
+
+
+}
+li{
+  float:inline-start;
+  align-items: stretch;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111111;
+  padding: 5px;
+  margin: 0;
+}
+article{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: antiquewhite;
+    height: 300px;
+    
+}
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+footer{
+    background-color: orangered;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.paris{
+    float:right;
+}
+.tokyo{
+    float:right;
+}
+@media(max-width:600px) {
+    nav,article{
+        width: 100%;
+        height: auto;
+    }
+}
+caption{
+    float: right;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+  
+    <h2 style="text-align: center;">WELCOME</h2>
+<!-- <p>
+    In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other</p>
+    <p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p> -->
+<!-- <h2 id="demo"></h2>
+<button type="button" onclick="myfunction()">Click ME!!!</button>
+<p id="button">JavaScript can change the style of an HTML element.</p> -->
+<header>
+    <h2>Cities</h2>
+</header>
+
+<section>
+<nav>
+    <caption>BOOKMARK</caption>
+  <ul>
+<li><a href="#London" >London</a></li>
+<li><a href="#Paris">Paris</a></li>
+<li><a href="#Tokyo">Tokyo</a></li>
+
+
+ </ul>
+</nav>
+<article >
+<h1 id="London" >London</h1>
+<p style="color:gray;">London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+<p style="color:gray;">Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+</article>
+<article class="paris">
+<h1 id="Paris">Paris</h1>
+<p style="color:gray;">Paris is the capital and most populous city of France, with an estimated population of 2,165,423 residents in 2019 in an area of more than 105 square kilometres (41 square miles).[4] Since the 17th century, Paris has been one of the world's major centres of finance, diplomacy, commerce, fashion, gastronomy, science, and arts.</p>
+<p style="color:gray;">The City of Paris is the centre and seat of government of the region and province of Île-de-France, or Paris Region, with an estimated population of 12,174,880 in 2017, or about 18 percent of the population of France.[5]</p>
+</article>
+<article class="tokyo">
+<h1 id="Tokyo">Tokyo</h1>
+<p style="color:gray;">Tokyo, historically known in the West as Tokio and officially the Tokyo Metropolis (東京都, Tōkyō-to), is the capital,[8] the largest city, and the most populous metropolitan area in the world,[5] with an estimated 37.468 million residents in 2018. </p>
+<p style="color:gray;"> Located at the head of Tokyo Bay, the prefecture forms part of the Kantō region on the central Pacific coast of Japan's main island of Honshu. Tokyo is the political and economic center of the country, as well as the seat of the Emperor of Japan and the national government. As of 2021, the prefecture has an estimated population of 14.04 million.</p>
+</article>
+</section>
+
+<footer>
+    <p>Thanks For Visiting My Website</p>
+</footer>
+<!-- <p>
+<button type="button" onclick="light(1)">light On</button>
+<button type="button" onclick="light(0)">light Off</button>
+</p>
+
+<img id="myimage" src="img/giphy.gif" alt="gif" width="100" height="180"> -->
+
+
+
+
+<!-- <style>
+
+/* button{
+    background-color: aqua;
+    color: black;
+    padding: 15px 25px;
+}
+h2{
+    text-align: center;
+} */
+
+
+
+</style> -->
+<!-- <script>
+// document.getElementById("demo").innerHTML = "Hello JavaScript!";
+
+// function myfunction(){
+// document.getElementById("button").style.backgroundColor="RED";
+// document.getElementById("button").style.fontSize="25px";
+// document.getElementById("button").style.color="while";
+// }
+// function light(sw){
+// var picture;
+// if(sw ==0){
+//     picture="img/giphy.gif"
+// }else{
+//     picture="img/giphy.gif"
+// }
+// document.getElementById("myimage").src=picture;
+// }
+
+
+
+</script>  -->
+
+</body>
+</html>
+
